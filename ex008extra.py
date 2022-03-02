@@ -1,0 +1,8 @@
+medida = float(input('Escreva uma medida em métros:'))
+print('Essa medida em Km é {}km'.format(medida / 1000))
+print('Essa medida em Hm é {}hm'.format(medida / 100))
+print('Essa medida em Dam é {}dam'.format(medida / 10))
+print('Essa medida em Metro é {}m'.format(medida))
+print('Essa medida em Dm é {}dm'.format(medida * 10))
+print('Essa medida em Cm é {}cm'.format(medida * 100))
+print('Essa medida em Mm é {}mm'.format(medida * 1000))
